@@ -1,1 +1,23 @@
-/* Inserta tu codigo aqui */
+.bg-contactanos{
+	background-image: url(../img/shoes_1.jpg);
+}
+.brd-none{
+	border: none;
+}
+.brd-input{
+	border: 1px solid rgba(211, 211, 211, 0.33);
+}
+.bg-blue{
+	background: #192951;
+}
+#contactanos img{
+	width: 20px;
+	height: 20px;
+}
+.button-d{
+	border-radius: 5px;
+	border: none;
+}
+.pd-5{
+	padding: 5%;
+}

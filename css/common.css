@@ -1,1 +1,22 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+}
+.list-unstyle{
+	list-style: none;
+}
+.display-ib{
+	display: inline-block;
+}
+.pt-2{
+	padding-top: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.pl-3{
+	padding-left: 3%;
+}
+.pr-3{
+	padding-right: 3%;
+}
