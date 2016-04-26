@@ -6,9 +6,7 @@
 	height: 450px;
 }
 .bg-portada{
-	background-image: url(../img/dance_1.jpg);
-	background-position: top;
-	height: 400px;
+	background-image: url(../img/bg-blue-dark.png); 
 }
 .bg-clases-textura{
 	background-image: url(../img/textura_2.jpg);

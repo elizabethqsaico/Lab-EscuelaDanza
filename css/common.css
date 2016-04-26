@@ -1,7 +1,7 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-/* *{
+*{
 	outline:1px solid rgba(255,0,0,0.3);
-} */
+} 
 .list-unstyle{
 	list-style: none;
 }
