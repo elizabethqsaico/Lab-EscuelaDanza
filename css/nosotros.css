@@ -1,1 +1,30 @@
-/* Inserta tu codigo aqui */
+.img-nosotros{
+	height: 450px; 
+	background-image: url('../img/dance_7.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.cuadroplomo{
+	position: relative;
+	opacity: 0.4;
+	background-color: black;
+	height: 160px;
+	width: 40%;
+	margin: auto;
+	margin-top: 140px;
+	margin-bottom: 140px
+	text-align: center;
+	object-fit: cover;
+}
+.p2{
+	color: white;
+	text-align: center;
+}
+.fondo-pilares{
+	background-image: url('../img/tile2.png');
+	height: 400px;
+	color: gray;
+}
+.pilar{
+	display: inline-block;
+}
