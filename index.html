@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Escuela de Danza</title>
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link href="font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
@@ -23,29 +24,99 @@
 			</div>
 		</div>
 	</header>
-	<section>
-		
+	<section><!--Portada -->
+		<div class="row bg-portada bg-img-block">
+			<div class="col-5">
+				<div class="pl-3 pd-5-10 w-65 h-400 text-white">
+					<h1 class="pl-3 font-5em">STUDIO</h1>
+					<p class="pt-2">JulliartStudios is the perfect place to find your feet with over 20 unique styles of dance and 80 teachers to choose from</p>
+					<div class="pt-5">				
+						<button type="button" class="button-d bg-blue-dark w-65 pd-5 text-center">
+							<a class="text-decoration-none" href="#contactanos"><p class="text-white">Inscribete</p></a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section><!--Clases -->
+		<div class="row bg-clases-textura">
+			<div class="col-3"></div>
+			<div class="col-6 text-center">
+				<div>
+					<h3 class="text-black pt-5">Juilliart cuenta con una amplia trayectoria y reputación, brindando una formación de excelencia a cientos de amantes de la danza.</h3>
+					<img class="w-25 pt-5" src="img/decoration_2.png">
+					<div class="pt-5 pb-5">				
+						<button action="clases.html" type="button" class="button-d bg-blue-dark  pt-2 pb-2 pr-5 pl-5 text-center">
+							<div>
+								<a class="text-decoration-none" href="clases.html"><p class="text-white">Oferta de Clases</p></a>
+							</div>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-3"></div>
+		</div>
+	</section>
+	<section><!--Instructores -->
+		<div class="row">
+			<div class="col-6 bg-instructor1">
+				
+			</div>
+			<div class="col-6 bg-instructor2">
+				<button action="clases.html" type="button" class="position-button text-center button-d bg-blue-dark  pt-2 pb-2 pr-5 pl-5">				
+					<a class="text-decoration-none" href="nosotros.html"  target="_blank"><p class="text-white">Nuestros Instructores</p></a>
+				</button>
+			</div>
+		</div>
+		<div class="row bg-clases-textura">
+			<div class="col-2"></div>
+			<div class="col-8">
+				<h1 class="text-black text-center font-2em pd-5-10"><em>"La danza es un poema en el que cada movimiento es una palabra"</em></h1>
+			</div>
+			<div class="col-2"></div>
+		</div>
+	</section>
+	<section><!-- Ubicacion -->
+		<div class="row bg-blue-dark">
+			<div class="col-6 text-white">
+				<p class="pd-5 font-size-14">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque facilis necessitatibus et, rem praesentium. Minus soluta reiciendis quis architecto cumque tempore laboriosam doloribus, fugit modi ipsa eaque velit exercitationem, ipsam?</p>
+				<div class="pd-5">
+					<h3>Visitanos</h3>
+					<p class="font-size-14">The Juilliard School</p>
+					<p class="font-size-14">60 Lincoln Center Plaza</p>
+					<p class="font-size-14">New York, NY 10023</p>
+					<p class="font-size-14">(212) 799-5000</p>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="pd-5">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12085.865746194442!2d-73.9828286!3d40.7737587!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf876ccebba645bff!2sEscuela+Juilliard!5e0!3m2!1ses-419!2spe!4v1461345828455" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section id="contactanos">
 		<div class="row bg-contactanos bg-img-block">
+			<div class="col-2"></div>
 			<div class="col-6">
-				<form class="pd-5">
+				<form class="pd-5-10">
 					<fieldset class="brd-none pd-0 mg-0">
 						<h1 class="text-blue pt-2 pb-2">Contáctanos</h1>
 						<div class="datos brd-input pt-1 pb-1 pl-1 mg-1">
 							<label for="nombre"><img src="img/icon/contact.png"></label>
-							<input class="brd-none w-90" type="text" name="nombre" id="nombre" placeholder="Nombre"/>
+							<input class="brd-none w-90" type="text" name="nombre" id="nombre" placeholder="Nombre" required="required" />
 						</div>
 						<div class="datos brd-input pt-1 pb-1 pl-1 mg-1">
 							<label for="email"><img src="img/icon/email.png"></label>
-							<input class="brd-none w-90" type="email" name="email" id="email" placeholder="Email"/>
+							<input class="brd-none w-90" type="email" name="email" id="email" placeholder="Email" required="required" />
 						</div>
 						<div class="datos brd-input pt-1 pb-1 pl-1 mg-1">
-							<label for="mensaje"><img class="position-r" src="img/icon/message.png"></label>
-							<textarea class="brd-none w-90" type="text" placeholder="Mensaje" rows="7" cols="10"></textarea>
+							<label for="mensaje"><img class="position-r top-90" src="img/icon/message.png"></label>
+							<textarea class="brd-none w-90" type="text" placeholder="Mensaje" rows="7" cols="10" required="required" ></textarea>
 						</div>
 						<div class="text-center">				
-							<button class="button-d bg-blue w-90 pd-2 text-center">
+							<button type="submit" class="button-d bg-blue w-90 pd-2 text-center">
 								<div>
 									<p class="text-white">ENVIAR</p>
 								</div>
@@ -57,7 +128,7 @@
 		</div>
 	</section>
 
-	<section>
+		<!--<section>
 		<div class="row">
 			<div class="col-12 text-center">
 				<h1 class="text-blue pt-2">ESCUELA DE DANZA</h1>
@@ -77,8 +148,7 @@
 				
 			</div>
 		</div>
-	</section>
-
+	</section> -->
 
 	<footer>
 		<div class="row bg-blue">

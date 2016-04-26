@@ -1,7 +1,7 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-*{
+/* *{
 	outline:1px solid rgba(255,0,0,0.3);
-}
+} */
 .list-unstyle{
 	list-style: none;
 }
@@ -19,4 +19,10 @@
 }
 .pr-3{
 	padding-right: 3%;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pr-5{
+	padding-right: 5%;
 }
