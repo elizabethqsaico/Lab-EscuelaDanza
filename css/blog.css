@@ -1,67 +1,42 @@
-/* Inserta tu codigo aqui */
-.texto1{
 
-	padding-left: 50px;
-	padding-right:50px;
-
-	}
+.bg-blog{
+	background: #F2F2F2;
+}
+.blog-icons{
+	width: 78%;
+	display: inline-block;
+	vertical-align: top;
+}
+#blog img{
+	max-width: 200px;
+	height: 220px;
+	text-align: left;
+}
+.boton{
+ 	padding: 1% 7%;
+	border-radius: 4px;
+}
+.pt-3{
+	padding-top: 3%;
+}
+.pr-3{
+	padding-right: 3%;
+}
+.pl-3{
+	padding-left: 3%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pdrl-5{
+	padding-right: 5%;
+	padding-left: 5%;
+}
 
 .sin-estilo{
 	list-style:none;
 	}
 
-
-.margen{
-margin-top:0px;
-background:#D9D8EE;
-padding-top: 10px;
-padding-left: 50px;
-padding-right: 100px;	
-padding-bottom:-5px;
-margin-left: 20px
-}
-.margen2{
-margin-top:20px;
-margin-left:20px; 
-background:#D9D8EE;
-padding-top: 20px;
-padding-left: 50px;	
-padding-bottom:10px;
-margin-bottom: 2px;	
-}
-.margen3{
-margin-top:25px;
-background:#D9D8EE;
-padding-top: 20px;
-padding-left: 50px;	
-padding-bottom: 5px;
-margin-left: 20px;
-margin-bottom:4px;	
-
-}
-.espacio{
-margin-bottom: 30px;
-padding-right: -10px;
-margin-right: 3px;
-}
 .fondo{
 	background:#EAE9F5;
-	padding-left:120px;
-	padding-right: 100px;
-	padding-bottom: 100px;
-}
-
-.boton{
-font-size: 12px;
-font-family: Arial;
-padding-left: 60px;
-padding-right: 60px;
-padding-top: 5px;
-padding-bottom: 5px;
-border-radius: 4px;
-background: #11225A;
-color:white;
-}
-.blog{
-	margin-bottom: 40px;
 }
