@@ -16,15 +16,28 @@
 	text-align: center;
 	object-fit: cover;
 }
-
+.cuadroplomo:hover{
+	opacity: 0.8;
+}
 .bg-nosotros-textura{
 	background-image: url(../img/tile2.png);
-	opacity: 0.5;
+	opacity: 0.8;
 }
 .instructores-icons{
 	width: 20%;
 	display: inline-block;
 	vertical-align: top;
+}
+.instructores-icons img:hover{
+	transform:scale(1);
+	border-radius: 30%;
+	max-height:100px;
+	max-width:150px;
+}
+.instructores-icons h3:hover{
+	border-radius: 5%;
+	color: #fff;
+	background: #0B173B;
 }
 .pl-1{
 	padding-left: 1px;
@@ -37,6 +50,10 @@
 	display: inline-block;
 	width: 25%;
 	vertical-align: top;
+}
+.pilar-icons:hover{
+	transform:scale(1.2);
+	border: 1px solid #0B173B;
 }
 .brd-b{
  	border-bottom: 2px solid rgba(128, 128, 128, 1.0);
